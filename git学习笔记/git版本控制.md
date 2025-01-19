@@ -103,4 +103,4 @@ $ git config --global http.sslVerify false	关闭验证即可
 
 - #### 推送到github成功
 
-![image-20250119181234559](./git版本控制.assets/image-20250119181234559.png)
+![image-20250119181234559](git版本控制.assets/image-20250119181234559.png)
