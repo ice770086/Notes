@@ -93,7 +93,7 @@ git remote rm <别名>				//删除远程仓库别名，仓库本身还在
 
 这个问题是由于没有配置信任的服务器HTTPS验证。默认，[cURL](https://so.csdn.net/so/search?q=cURL&spm=1001.2101.3001.7020)被设为不信任任何CAs，就是说，它不信任任何服务器验证。
 
-![image-20250119180621371](git版本控制.assets/image-20250119180621371-1737288475605-13.png)
+![image-20250119180621371](git版本控制.assets/image-20250119180621371-1737288475605-13-1737289159133-24.png)
 
 $ git config --global http.sslVerify false	关闭验证即可
 
@@ -103,4 +103,4 @@ $ git config --global http.sslVerify false	关闭验证即可
 
 - #### 推送到github成功
 
-![image-20250119181234559](git版本控制.assets/image-20250119181234559-1737288477583-15.png)
+![image-20250119181234559](./git版本控制.assets/image-20250119181234559.png)
