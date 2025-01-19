@@ -10,9 +10,9 @@ githubdesktop是github的桌面版
 
 新建github仓库
 
-![image-20250119154547142](assets/image-20250119154547142.png)
+![image-20250119154547142](./git版本控制.assets/image-20250119154547142.png)
 
-![image-20250119155844097](assets/image-20250119155844097.png)
+![image-20250119155844097](./git版本控制.assets/image-20250119155844097.png)
 
 分支管理
 
@@ -46,18 +46,22 @@ git log		//查看历史提交和哈希值
 ```git
 git branch <新分支名>		  	//创建分支，新分支不认识其他分支的远程仓库别名
 git branch					//查看分支（当前分支*标识）
-git branch [-d|-D]			//-D强制删除
+git branch -D <分支名>			//强制删除分支
+
+git reflog					//查找分支哈希值
+git branch <分支名> <哈希值>	//恢复指定哈希值对应的分支
+
 git checkout <分支名>			//切换分支
 git merge <要整合过来的分支名>	//整合到当前分支
 ```
 
 
 
-![image-20250119190203512](assets/image-20250119190203512.png)
+![image-20250119190203512](./git版本控制.assets/image-20250119190203512.png)
 
-![image-20250119182540489](assets/image-20250119182540489.png)
+![image-20250119182540489](./git版本控制.assets/image-20250119182540489.png)
 
-![image-20250119183310114](assets/image-20250119183310114.png)
+![image-20250119183310114](./git版本控制.assets/image-20250119183310114.png)
 
 
 
@@ -79,7 +83,7 @@ git remote rm <别名>				//删除远程仓库别名，仓库本身还在
 
 - #### 创建远程仓库并起别名然后查看远程仓库（push是推送，fetch是拉取）
 
-![image-20250119174044962](assets/image-20250119174044962.png)
+![image-20250119174044962](./git版本控制.assets/image-20250119174044962.png)
 
 
 
@@ -89,7 +93,7 @@ git remote rm <别名>				//删除远程仓库别名，仓库本身还在
 
 这个问题是由于没有配置信任的服务器HTTPS验证。默认，[cURL](https://so.csdn.net/so/search?q=cURL&spm=1001.2101.3001.7020)被设为不信任任何CAs，就是说，它不信任任何服务器验证。
 
-![image-20250119180621371](assets/image-20250119180621371.png)
+![image-20250119180621371](./git版本控制.assets/image-20250119180621371.png)
 
 $ git config --global http.sslVerify false	关闭验证即可
 
@@ -99,4 +103,4 @@ $ git config --global http.sslVerify false	关闭验证即可
 
 - #### 推送到github成功
 
-![image-20250119181234559](assets/image-20250119181234559.png)
+![image-20250119181234559](./git版本控制.assets/image-20250119181234559.png)
