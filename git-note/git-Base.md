@@ -6,11 +6,9 @@ git是使用git命令管理项目
 
 githubdesktop是github的桌面版
 
-
-
 新建github仓库
 
-![image-20250119155844097](https://github.com/AstroWYH/UE5-CPP-Notes/assets/94472801/db553165-0eb6-49ba-a579-4db629f5b958)
+![image-20250119210531780](assets/image-20250119210531780.png)
 
 分支管理
 
@@ -55,14 +53,6 @@ git merge <要整合过来的分支名>	//整合到当前分支
 
 
 
-![image-20250119190203512](git版本控制.assets/image-20250119190203512-1737288467954-5.png)
-
-![image-20250119182540489](git版本控制.assets/image-20250119182540489-1737288469430-7.png)
-
-![image-20250119183310114](git版本控制.assets/image-20250119183310114-1737288471064-9.png)
-
-
-
 
 
 ## 管理远程仓库
@@ -81,8 +71,6 @@ git remote rm <别名>				//删除远程仓库别名，仓库本身还在
 
 - #### 创建远程仓库并起别名然后查看远程仓库（push是推送，fetch是拉取）
 
-![image-20250119174044962](git版本控制.assets/image-20250119174044962-1737288473849-11.png)
-
 
 
 
@@ -90,8 +78,6 @@ git remote rm <别名>				//删除远程仓库别名，仓库本身还在
 - #### 发送到远程仓库出错
 
 这个问题是由于没有配置信任的服务器HTTPS验证。默认，[cURL](https://so.csdn.net/so/search?q=cURL&spm=1001.2101.3001.7020)被设为不信任任何CAs，就是说，它不信任任何服务器验证。
-
-![image-20250119180621371](git版本控制.assets/image-20250119180621371-1737288475605-13-1737289159133-24.png)
 
 $ git config --global http.sslVerify false	关闭验证即可
 
@@ -101,4 +87,3 @@ $ git config --global http.sslVerify false	关闭验证即可
 
 - #### 推送到github成功
 
-![image-20250119181234559](git版本控制.assets/image-20250119181234559.png)
