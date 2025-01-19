@@ -10,7 +10,7 @@ githubdesktop是github的桌面版
 
 新建github仓库
 
-![image-20250119154547142](./git版本控制.assets/image-20250119154547142.png)
+![image-20250119154547142](git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.assets/image-20250119154547142-1737287290407-1.png)
 
 ![image-20250119155844097](./git版本控制.assets/image-20250119155844097.png)
 
